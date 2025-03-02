@@ -7,3 +7,7 @@ def hello_world():
 @app.route('/hello')
 def hello():
     return 'this is hello world'
+
+@app.route('/login')
+def hello():
+    return 'this is login page'
